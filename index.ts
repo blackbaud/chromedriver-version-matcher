@@ -31,6 +31,7 @@ async function getChromeMajorVersion(): Promise<{chromeVersion: string, chromeMa
           `datafile where "name='${installations[0].replace(/\\/g, '\\\\')}'" get version /value`
         );
 
+        source.stdout.on('exit', () => reject('Unable to get Chrome version from wmic (exit)'));
         source.stdout.on('close', () => reject('Unable to get Chrome version from wmic (close)'));
         source.stderr.on('data', () => reject('Unable to get Chrome version from wmic (err)'));
         source.stdout.on('data', (data) => {
@@ -46,6 +47,7 @@ async function getChromeMajorVersion(): Promise<{chromeVersion: string, chromeMa
         });
       } else {
         const source = spawn(installations[0], ['--version']);
+        source.stdout.on('exit', () => reject('Unable to get Chrome version (exit)'));
         source.stdout.on('close', () => reject('Unable to get Chrome version (close)'));
         source.stderr.on('data', () => reject('Unable to get Chrome version (err)'));
         source.stdout.on('data', (data) => {
