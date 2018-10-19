@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "es6"
+    ],
+    "outDir": "dist"
+  },
+  "exclude": [
+    "lib",
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
