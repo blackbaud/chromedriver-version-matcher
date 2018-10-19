@@ -15,4 +15,6 @@ branches:
     - /^[0-9]+\.[0-9]+\.[0-9]+.*/
 
 after_success:
+  - node ./scripts/prepare-package
+  - cd dist
   - bash <(curl -s https://blackbaud.github.io/skyux-travis/after-success.sh)
