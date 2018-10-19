@@ -1,3 +1,7 @@
+# 1.0.0-alpha.2 (2018-10-19)
+
+ - Added exit handler.
+
 # 1.0.0-alpha.1 (2018-10-19)
 
  - Correctly setting dependencies.
