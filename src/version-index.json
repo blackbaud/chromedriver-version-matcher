@@ -1,0 +1,134 @@
+{
+  "versions": [
+    {
+      "chromeDriverVersion": "2.43",
+      "chromeMaxVersion": 71,
+      "chromeMinVersion": 69
+    },
+    {
+      "chromeDriverVersion": "2.42",
+      "chromeMaxVersion": 70,
+      "chromeMinVersion": 68
+    },
+    {
+      "chromeDriverVersion": "2.41",
+      "chromeMaxVersion": 69,
+      "chromeMinVersion": 67
+    },
+    {
+      "chromeDriverVersion": "2.40",
+      "chromeMaxVersion": 68,
+      "chromeMinVersion": 66
+    },
+    {
+      "chromeDriverVersion": "2.39",
+      "chromeMaxVersion": 68,
+      "chromeMinVersion": 66
+    },
+    {
+      "chromeDriverVersion": "2.38",
+      "chromeMaxVersion": 67,
+      "chromeMinVersion": 65
+    },
+    {
+      "chromeDriverVersion": "2.37",
+      "chromeMaxVersion": 66,
+      "chromeMinVersion": 64
+    },
+    {
+      "chromeDriverVersion": "2.36",
+      "chromeMaxVersion": 65,
+      "chromeMinVersion": 63
+    },
+    {
+      "chromeDriverVersion": "2.35",
+      "chromeMaxVersion": 64,
+      "chromeMinVersion": 62
+    },
+    {
+      "chromeDriverVersion": "2.34",
+      "chromeMaxVersion": 63,
+      "chromeMinVersion": 61
+    },
+    {
+      "chromeDriverVersion": "2.33",
+      "chromeMaxVersion": 62,
+      "chromeMinVersion": 60
+    },
+    {
+      "chromeDriverVersion": "2.32",
+      "chromeMaxVersion": 61,
+      "chromeMinVersion": 59
+    },
+    {
+      "chromeDriverVersion": "2.31",
+      "chromeMaxVersion": 60,
+      "chromeMinVersion": 58
+    },
+    {
+      "chromeDriverVersion": "2.30",
+      "chromeMaxVersion": 60,
+      "chromeMinVersion": 58
+    },
+    {
+      "chromeDriverVersion": "2.29",
+      "chromeMaxVersion": 58,
+      "chromeMinVersion": 56
+    },
+    {
+      "chromeDriverVersion": "2.28",
+      "chromeMaxVersion": 57,
+      "chromeMinVersion": 55
+    },
+    {
+      "chromeDriverVersion": "2.27",
+      "chromeMaxVersion": 56,
+      "chromeMinVersion": 54
+    },
+    {
+      "chromeDriverVersion": "2.26",
+      "chromeMaxVersion": 55,
+      "chromeMinVersion": 53
+    },
+    {
+      "chromeDriverVersion": "2.25",
+      "chromeMaxVersion": 55,
+      "chromeMinVersion": 53
+    },
+    {
+      "chromeDriverVersion": "2.24",
+      "chromeMaxVersion": 54,
+      "chromeMinVersion": 52
+    },
+    {
+      "chromeDriverVersion": "2.23",
+      "chromeMaxVersion": 53,
+      "chromeMinVersion": 51
+    },
+    {
+      "chromeDriverVersion": "2.22",
+      "chromeMaxVersion": 52,
+      "chromeMinVersion": 49
+    },
+    {
+      "chromeDriverVersion": "2.21",
+      "chromeMaxVersion": 50,
+      "chromeMinVersion": 46
+    },
+    {
+      "chromeDriverVersion": "2.20",
+      "chromeMaxVersion": 48,
+      "chromeMinVersion": 43
+    },
+    {
+      "chromeDriverVersion": "2.19",
+      "chromeMaxVersion": 47,
+      "chromeMinVersion": 43
+    },
+    {
+      "chromeDriverVersion": "2.18",
+      "chromeMaxVersion": 46,
+      "chromeMinVersion": 43
+    }
+  ]
+}
