@@ -6,7 +6,8 @@
   "module": "index.ts",
   "dependencies": {
     "chrome-launcher": "0.10.5",
-    "cross-spawn": "6.0.5"
+    "cross-spawn": "6.0.5",
+    "fs-extra": "7.0.0"
   },
   "devDependencies": {
     "@types/cross-spawn": "6.0.0",
@@ -14,7 +15,6 @@
     "@types/request": "2.47.1",
     "@types/xml2js": "0.4.3",
     "copyfiles": "2.1.0",
-    "fs-extra": "7.0.0",
     "request": "2.88.0",
     "rimraf": "2.6.2",
     "ts-node": "7.0.1",
