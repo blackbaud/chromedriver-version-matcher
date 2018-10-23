@@ -26,9 +26,16 @@ async function getChromeMajorVersion(): Promise<{chromeVersion: string, chromeMa
 
     if (installations && installations.length > 0) {
       if (platform === 'win32') {
-        const source = spawn('wmic');
-        source.stdin.end(
-          `datafile where "name='${installations[0].replace(/\\/g, '\\\\')}'" get version /value`
+        const source = spawn(
+          'wmic',
+          [
+            'datafile',
+            'where',
+            `name='${installations[0].replace(/\\/g, '\\\\')}'`,
+            'get',
+            'version',
+            '/value'
+          ]
         );
 
         source.stdout.on('exit', () => reject('Unable to get Chrome version from wmic (exit)'));
