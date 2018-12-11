@@ -1,3 +1,7 @@
+# 1.0.0-alpha.3 (2018-12-11)
+
+- Added support for Webdriver 2.44 and 2.45. [#8](https://github.com/blackbaud/chromedriver-version-matcher/pull/8)
+
 # 1.0.0-alpha.2 (2018-10-19)
 
  - Added exit handler.
