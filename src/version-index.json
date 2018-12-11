@@ -6,6 +6,11 @@
       "chromeMinVersion": 70
     },
     {
+      "chromeDriverVersion": "2.44",
+      "chromeMaxVersion": 71,
+      "chromeMinVersion": 69
+    },
+    {
       "chromeDriverVersion": "2.43",
       "chromeMaxVersion": 71,
       "chromeMinVersion": 69
