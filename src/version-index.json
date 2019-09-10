@@ -1,6 +1,36 @@
 {
   "versions": [
     {
+      "chromeDriverVersion": "77.0.3865.40",
+      "chromeMaxVersion": 77,
+      "chromeMinVersion": 77
+    },
+    {
+      "chromeDriverVersion": "77.0.3865.10",
+      "chromeMaxVersion": 77,
+      "chromeMinVersion": 77
+    },
+    {
+      "chromeDriverVersion": "76.0.3809.126",
+      "chromeMaxVersion": 76,
+      "chromeMinVersion": 76
+    },
+    {
+      "chromeDriverVersion": "76.0.3809.68",
+      "chromeMaxVersion": 76,
+      "chromeMinVersion": 76
+    },
+    {
+      "chromeDriverVersion": "76.0.3809.25",
+      "chromeMaxVersion": 76,
+      "chromeMinVersion": 76
+    },
+    {
+      "chromeDriverVersion": "76.0.3809.12",
+      "chromeMaxVersion": 76,
+      "chromeMinVersion": 76
+    },
+    {
       "chromeDriverVersion": "75.0.3770.8",
       "chromeMaxVersion": 75,
       "chromeMinVersion": 75
