@@ -1,3 +1,7 @@
+# 1.0.0-alpha.5 (2019-09-16)
+
+- Added support for Chrome 76 and 77. [#14](https://github.com/blackbaud/chromedriver-version-matcher/pull/14)
+
 # 1.0.0-alpha.4 (2019-06-05)
 
 - Manually added support for Chrome 73, 74, and 75. [#9](https://github.com/blackbaud/chromedriver-version-matcher/pull/9)
