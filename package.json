@@ -1,6 +1,6 @@
 {
   "name": "chromedriver-version-matcher",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "description": "Finds the version of ChromeDriver that is compatible with the locally-installed version of Chrome.",
   "main": "dist/index.js",
   "module": "index.ts",
