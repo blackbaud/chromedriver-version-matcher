@@ -14,3 +14,11 @@ versionMatcher.getChromeDriverVersion()
   });
 
 ```
+
+## Manually updating index
+
+Until https://github.com/blackbaud/chromedriver-version-matcher/issues/11 is resolved, we must manually update the index.
+
+- Visit https://chromedriver.storage.googleapis.com/.
+- Find the version of Chrome you're wanting to add support for.
+- Open `src/version-index.json` and add new entries.

@@ -1,5 +1,5 @@
-import * as chromeFinder from 'chrome-launcher/dist/src/chrome-finder';
-import * as chromeUtils from 'chrome-launcher/dist/src/utils';
+import * as chromeFinder from 'chrome-launcher/dist/chrome-finder';
+import * as chromeUtils from 'chrome-launcher/dist/utils';
 import * as spawn from 'cross-spawn';
 import * as fs from 'fs-extra';
 import * as path from 'path';
