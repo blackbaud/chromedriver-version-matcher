@@ -1,6 +1,26 @@
 {
   "versions": [
     {
+      "chromeDriverVersion": "81.0.4044.69",
+      "chromeMaxVersion": 81,
+      "chromeMinVersion": 81
+    },
+    {
+      "chromeDriverVersion": "81.0.4044.20",
+      "chromeMaxVersion": 81,
+      "chromeMinVersion": 81
+    },
+    {
+      "chromeDriverVersion": "80.0.3987.16",
+      "chromeMaxVersion": 80,
+      "chromeMinVersion": 80
+    },
+    {
+      "chromeDriverVersion": "80.0.3987.106",
+      "chromeMaxVersion": 80,
+      "chromeMinVersion": 80
+    },
+    {
       "chromeDriverVersion": "79.0.3945.36",
       "chromeMaxVersion": 79,
       "chromeMinVersion": 79
