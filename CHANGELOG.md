@@ -1,4 +1,4 @@
-# 1.0.0 (2020-04-08)
+# 1.0.1 (2020-04-08)
 
 - Added support for Chrome 80 and 81. [#19](https://github.com/blackbaud/chromedriver-version-matcher/pull/19)
 
