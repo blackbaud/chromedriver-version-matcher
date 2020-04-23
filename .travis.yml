@@ -2,10 +2,6 @@ dist: trusty
 
 language: node_js
 
-node_js:
-  - "8"
-  - "6"
-
 addons:
   chrome: stable
 
@@ -17,7 +13,6 @@ branches:
 jobs:
   include:
     - stage: deploy
-      node_js: "8"
       script:
         - npm run build
         - node ./scripts/prepare-package
