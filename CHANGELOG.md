@@ -1,3 +1,7 @@
+# 1.1.1 (2020-07-10)
+
+- Upgraded package dependencies to address vulnerability warnings. [#23](https://github.com/blackbaud/chromedriver-version-matcher/pull/23)
+
 # 1.1.0 (2020-04-23)
 
 - Upgraded package dependencies to address vulnerability warnings. [#20](https://github.com/blackbaud/chromedriver-version-matcher/pull/20)
