@@ -1,3 +1,7 @@
+# 1.1.5 (2020-11-20)
+
+- Added support for Chrome 86 and 87. [#29](https://github.com/blackbaud/chromedriver-version-matcher/pull/29)
+
 # 1.1.4 (2020-09-01)
 
 - Added support for another Chrome 85 version. [#28](https://github.com/blackbaud/chromedriver-version-matcher/pull/28)
