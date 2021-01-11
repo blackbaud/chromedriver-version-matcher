@@ -13,7 +13,7 @@ import {
 } from './src/version-index';
 
 function getMajorFromVersion(version: string): number {
-  return +version.split('.')[0];
+  return +version.split('.')[0].replace(/_m1/, '');
 }
 
 async function getChromeMajorVersion(): Promise<{chromeVersion: string, chromeMajorVersion: number}> {
@@ -58,8 +58,12 @@ async function getChromeMajorVersion(): Promise<{chromeVersion: string, chromeMa
         source.stdout.on('close', () => reject('Unable to get Chrome version (close)'));
         source.stderr.on('data', () => reject('Unable to get Chrome version (err)'));
         source.stdout.on('data', (data) => {
-          const chromeVersion = data.toString()
-            .trim().substr('Google Chrome '.length).split(' ')[0];
+          const chromeVersion = data
+            .toString()
+            .trim()
+            .substr('Google Chrome '.length)
+            .split(' ')[0];
+
           resolve({
             chromeMajorVersion: getMajorFromVersion(chromeVersion),
             chromeVersion
