@@ -1,3 +1,7 @@
+# 1.1.8 (2021-09-27)
+
+- Added support for Chrome 91, 92, 93, 94, and 95. []()
+
 # 1.1.7 (2021-03-16)
 
 - Added support for Chrome 89 and Chrome 90. [#31](https://github.com/blackbaud/chromedriver-version-matcher/pull/31)
