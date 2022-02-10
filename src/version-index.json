@@ -1,6 +1,61 @@
 {
   "versions": [
     {
+      "chromeDriverVersion": "99.0.4844.17",
+      "chromeMaxVersion": 99,
+      "chromeMinVersion": 99
+    },
+    {
+      "chromeDriverVersion": "98.0.4758.80",
+      "chromeMaxVersion": 98,
+      "chromeMinVersion": 98
+    },
+    {
+      "chromeDriverVersion": "98.0.4758.48",
+      "chromeMaxVersion": 98,
+      "chromeMinVersion": 98
+    },
+    {
+      "chromeDriverVersion": "97.0.4692.71",
+      "chromeMaxVersion": 97,
+      "chromeMinVersion": 97
+    },
+    {
+      "chromeDriverVersion": "97.0.4692.36",
+      "chromeMaxVersion": 97,
+      "chromeMinVersion": 97
+    },
+    {
+      "chromeDriverVersion": "97.0.4692.20",
+      "chromeMaxVersion": 97,
+      "chromeMinVersion": 97
+    },
+    {
+      "chromeDriverVersion": "96.0.4664.45",
+      "chromeMaxVersion": 96,
+      "chromeMinVersion": 96
+    },
+    {
+      "chromeDriverVersion": "96.0.4664.35",
+      "chromeMaxVersion": 96,
+      "chromeMinVersion": 96
+    },
+    {
+      "chromeDriverVersion": "96.0.4664.18",
+      "chromeMaxVersion": 96,
+      "chromeMinVersion": 96
+    },
+    {
+      "chromeDriverVersion": "95.0.4638.69",
+      "chromeMaxVersion": 95,
+      "chromeMinVersion": 95
+    },
+    {
+      "chromeDriverVersion": "95.0.4638.54",
+      "chromeMaxVersion": 95,
+      "chromeMinVersion": 95
+    },
+    {
       "chromeDriverVersion": "95.0.4638.17",
       "chromeMaxVersion": 95,
       "chromeMinVersion": 95
